@@ -1,0 +1,114 @@
+/*Footer*/
+
+.contacto{
+    width: 100%;
+    bottom: 0%;
+    background-color: var(--color-primario);
+    color: var(--color-texto-inverso);
+}
+
+.cuerpoContacto{
+    display: flex;
+}
+
+.columna1, .columna2, .columna3{
+    flex-basis: 50%;
+    padding: 10px 20px;
+    list-style: none;
+}
+
+.columna1 h1{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.columna2 h1{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.columna3 h1{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.textoContacto{
+    margin: 20px 0 0 0;
+    max-width: 350px;
+    line-height: 1.3;
+}
+
+.filaContacto{
+    font-size: 16px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.tagRs{
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.tagContacto{
+    margin-left: 10px;
+}
+
+.tagContactoMail{
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.contacto a{
+    background-color: var(--color-primario);
+    color: var(--color-texto-inverso);
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+.filaRs{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.imagenContacto{
+    height: 30px;
+    width: 20px;
+}
+
+.imagenContactoEmail{
+    height: 36px;
+    width: 36px;
+}
+
+.imagenRs{
+    width: 36px;
+    height: 36px;
+}
+
+.columna3 h1{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.bajoContacto{
+    width: 100%;
+    background-color: var(--color-copy-footer);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    margin: auto;
+}
+
+.copyright{
+    margin-left: 30px;
+}
+
+@media (max-width: 950px){
+    .cuerpoContacto{
+        flex-wrap: wrap;
+    }
+}

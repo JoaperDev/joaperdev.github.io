@@ -1,0 +1,91 @@
+/*Seccion acerca de mi*/
+.informacionPerfil {
+    margin-bottom: 25px;
+}
+
+.imagenPerfil {
+    width: 80%;
+    max-width: 300px;
+}
+
+.perfil {
+    text-align: center;
+}
+
+.tituloPerfil {
+    font-size: 40px;
+    font-weight: bold;
+    color: var(--color-primario);
+    font-family: 'Rubik', sans-serif;
+}
+
+.detallesPerfil {
+    font-size: 18px;
+    font-weight: 500px;
+    line-height: 1.5;
+    max-width: 450px;
+    margin: 20px auto;
+}
+
+.botonPerfil {
+    background-color: var(--color-primario);
+    color: var(--color-texto-inverso);
+    border: none;
+    font-size: 20px;
+    padding: 0.5em 1em;
+    border-radius: 7px;
+}
+
+.botonPerfil:hover {
+    filter: brightness(150%);
+}
+
+.lineaPerfil{
+    background-color: var(--color-secundario);
+    height: 15px;
+    width: 80%;
+    max-width: 300px;
+    left: 0px;
+    bottom: 0px;
+    margin: 0 auto;
+}
+
+@media (min-width: 950px){
+    .informacionPerfil {
+        margin-bottom: 0px;
+    }
+    
+    .imagenPerfil {
+        width: 100%;
+        max-width: 350px;
+    }
+    
+    .perfil {
+        text-align: left;
+        display:flex;
+        justify-content: space-between;
+        max-width: 980px;
+        margin: 0 auto;
+        align-items: center;
+    }
+    
+    .tituloPerfil {
+        font-size: 55px;
+    }
+    
+    .detallesPerfil {
+        font-size: 23px;
+        line-height: 1.3;
+        margin: 30px 0;
+    }
+    
+    .botonPerfil {
+        font-size: 22px;
+        cursor: pointer;
+    }
+    
+    .lineaPerfil{
+        width: 100%;
+        max-width: 350px;
+    }
+}

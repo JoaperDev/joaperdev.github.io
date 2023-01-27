@@ -1,0 +1,54 @@
+/*Estilos generales*/
+:root {
+    --tema: white;
+    --color-primario: #000099;
+    --color-secundario: #ffc299;
+    --color-texto: black;
+    --color-texto-inverso: white;
+    --color-sombra-navbar: #b3b3b3;
+    --color-menu-celular: #3a4460;
+    --color-fondo-exp: #5563fc;
+    --color-copy-footer: #000061;
+}
+
+section[id], footer{
+    scroll-margin-top: 70px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--tema);
+    color: var(--color-texto);
+    padding-top: 70px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-texto);
+}
+
+.paddingHorizontal{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.paddingVertical{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+@media (min-width: 950px){
+    .paddingHorizontal{
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+    
+    .paddingVertical{
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+}
