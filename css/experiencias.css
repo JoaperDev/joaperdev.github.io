@@ -1,0 +1,67 @@
+/*Seccion experiencia*/
+.experiencias{
+    display: flex;
+    flex-direction: column;
+}
+
+.cuerpoExperiencias{
+    background-color: var(--color-fondo-exp);
+    color: var(--color-texto-inverso);
+}
+
+.olaArriba{
+    width: 100%;
+    position: relative;
+    top: 2px;
+    z-index: -1;
+}
+
+.olaAbajo{
+    width: 100%;
+    position: relative;
+    bottom: 2px;
+    transform: scaleY(-1);
+    z-index: -1;
+}
+
+.tituloExperiencias{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 40px;
+    margin: 25px;
+}
+
+.fechaExperiencia{
+    color: var(--color-secundario);
+    font-size: 25px;
+    font-weight: bolder;
+    margin-left: 5px;
+}
+
+.lugarExperiencia{
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.posicionExperiencia{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.descripcionExperiencia{
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.experiencia{
+    padding: 35px;
+    max-width: 500px;
+    margin: 0 auto;
+}
